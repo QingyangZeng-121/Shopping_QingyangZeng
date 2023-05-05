@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'sale.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
-        'NAME': 'product',  # 创建的数据库用户名
-        'USER': 'root',  # 数据库用户名
-        'PASSWORD': 'mbs600lzqy',  # 密码
-        'HOST': 'localhost',  # 主机
-        'PORT': '3306',  # 数据库使用的端口
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'product', 
+        'USER': 'root', 
+        'PASSWORD': 'Mbs600lzqy, ',
+        'HOST': 'localhost', 
+        'PORT': '3306', 
     }
 }
 
