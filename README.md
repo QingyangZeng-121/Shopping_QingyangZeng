@@ -405,6 +405,8 @@ Three directories containing Shopping_QingyangZeng/sale/sale have been entered a
 
     cd ..
 
+The terminal should be cd'd in with the suffix '/Shopping_QingyangZeng/sale' before the following steps can be performed on the server.
+
 We use the manage.py command tool by typing this command in the terminal:
 
     python3 manage.py runserver
