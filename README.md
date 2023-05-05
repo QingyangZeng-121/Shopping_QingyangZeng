@@ -196,6 +196,19 @@ The "exit" command is used to terminate the MySQL command line interface session
     mysql> exit
     Bye
     
+To access the project:
+
+    ls
+    CS551Q_solo_assessment_April_2023.pdf  README.md  Shopping_QingyangZeng
+
+    cd Shopping_QingyangZeng/
+    ls
+    
+    cd sale/
+    ls
+    
+    cd sale/
+
 Open the settings.py file in the vim editor. To open the file in vim, you can type vim settings.py in the terminal.
 Once the file is open in the vim editor, you can use various commands to edit the file. Here are some basic commands that you can use:
 
@@ -204,25 +217,11 @@ Once the file is open in the vim editor, you can use various commands to edit th
 ':w': to save the changes made to the file
 ':q': to quit the editor
 ':q!': to force quit the editor without saving the changes
-
-    ls
-    CS551Q_solo_assessment_April_2023.pdf  README.md  Shopping_QingyangZeng
-    
-    cd Shopping_QingyangZeng/
-    ls
-    
-    __MACOSX  sale
-    
-    cd sale/
-    ls
-    
-    india_map.png  init_data.py  manage.py  myntra_products_catalog.csv  product  sale  static  statistics.py  templates  upload  user
-    
-    cd sale/
-    
-    asgi.py  __init__.py  __pycache__  settings.py  urls.py  wsgi.py
     
     cat settings.py 
+
+Here are the outputs：
+    
     """
 
     Django settings for sale project.
