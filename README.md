@@ -418,6 +418,8 @@ Finally after starting the server, add 'area/' after the server website to displ
 ### Administrator functions
 Add 'admin/' after the server URL. to show the backend administration. This is the website where my server can see the backend administrator: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/admin/'
 
+If there is no '/' at the end of the URL, please add the '/' and enter the function you want to achieve e.g. 'admin', 'area', 'statistics'.
+
 ### Using tests
 Here are also some basic tests so that you can see how to test whether your code is working properly. They are located in the "Tests" folder and cover model and view tests. There is some repetitive code to load the test database, which can be refactored into a separate file for test file calls. Use the following command to run the tests:
 
