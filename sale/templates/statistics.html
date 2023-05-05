@@ -1,0 +1,24 @@
+{% block content %}
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'login.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login_btn.css' %}">
+    <style type="text/css">
+        iframe#_hjRemoteVarsFrame {
+            display: none !important;
+            width: 1px !important;
+            height: 1px !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+    </style>
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <div class="_33T1-ZBLz7FQrNT-ZCfKte">
+            <div class="_1sxlTjCjFLM5k-nXvLkywP">
+                <img src="/static/price.jpg" style="width:800px;height:600px">
+            </div>
+        </div>
+    </form>
+{% endblock %}
