@@ -396,6 +396,15 @@ You will need to create a superuser as well if you want to work with the admin f
     python3 manage.py createsuperuser
 
 ### Start the server
+You only need to enter two directories, if not you can use the following
+    
+    cd Shopping_QingyangZeng
+    cd sale
+
+Three directories containing Shopping_QingyangZeng/sale/sale have been entered and can be used as follows:
+
+    cd ..
+
 We use the manage.py command tool by typing this command in the terminal:
 
     python3 manage.py runserver
