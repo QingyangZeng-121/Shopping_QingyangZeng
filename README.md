@@ -426,7 +426,7 @@ In the centre of the home page, there is a search function, which allows you to 
 ### Visualisation features
 
 #### Map function
-After finally starting the server, add 'statictics/', after the server website, to display a visualised world map. For example this is the website where my server can see the map: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/statistics/'
+After finally starting the server, add 'statistics/', after the server website, to display a visualised world map. For example this is the website where my server can see the map: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/statistics/'
 
 #### Display icon function
 Finally after starting the server, add 'area/' after the server website to display a visualised pie chart showing the distribution of the prices of the products. For example this is the website where my server can see the pie chart: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/area/'
