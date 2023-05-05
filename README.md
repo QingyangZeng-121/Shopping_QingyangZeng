@@ -3,7 +3,7 @@ This is my shopping website.
 I used MySQL, which is not available in codio, so I had to install it in codio step by step, here is the installation tutorial (If you are using pycharm to open my application and you already have MySQL installed on your desktop, then you do not need to use the following installation steps to install MySQL in codio.): 
 
 ### Modify the database section in settings.py.
-Install MySQL, and create a new scheme named 'product' in it, and correspond to the 'NAME': 'product', 'USER. root', 'PASSWORD', 'HOST: localhost', and 'PORT: 3306' as set in MySQL.
+Install MySQL and create a new scheme in it called "product" and correspond to the "NAME": "product", "USER. root", "PASSWORD", "HOST: localhost" and "PORT: 3306" set in 'settings.py'.
 Modify the 'DATABASES' section in settings.py and change the password section to the password of your MySQL.
 
 ### Prerequisites
