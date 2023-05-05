@@ -385,12 +385,20 @@ The faker package was successfully installed using pip. When you run init_data.p
     
     pip install faker
     
-    python init_data.py 
+    python3 manage.py makemigrations
+    
+    python3 manag.py migrate
+    
+    python3 init_data.py 
+
+You will need to create a superuser as well if you want to work with the admin features. You can do that with the command:
+
+    python3 manage.py createsuperuser
 
 ### Start the server
 We use the manage.py command tool by typing this command in the terminal:
 
-    python manage.py runserver
+    python3 manage.py runserver
 
 If you are doing this on another platform, then you may need to change it (change the port number 8000 as required):
 
