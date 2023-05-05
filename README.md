@@ -405,7 +405,7 @@ If you are doing this on another platform, then you may need to change it (chang
     python3 manage.py runserver 0.0.0.0:8000
 
 ### Search function
-In the centre of the home page, there is a search function, which allows you to search by entering either or all of Productbrand and Productname, case sensitive.
+In the centre of the home page, there is a search function, which allows you to search by entering either or all of Productbrand and Productname, case sensitive. And when searching you can only click on SEARCH to find it, you can't use the enter key.
 
 ### Visualisation features
 
