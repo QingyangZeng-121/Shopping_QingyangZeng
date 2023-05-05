@@ -1,4 +1,4 @@
-# Shopping_QingyangZeng
+# Shopping mall about product data with Python, MySQL and Django
 This is my shopping website.
 I used MySQL, which is not available in codio, so I had to install it in codio step by step, here is the installation tutorial (If you are using pycharm to open my application and you already have MySQL installed on your desktop, then you do not need to use the following installation steps to install MySQL in codio.): 
 ### Prerequisites
@@ -134,7 +134,9 @@ The "flush privileges;" command reloads the grant table, which tells the server 
 
 Finally, you exit the MySQL command line interface using the "exit" command.
 
+### Logging in as root
 Please note that these steps are important to secure your MySQL installation, but it is also important to take other security measures such as firewalls, regular backups and monitoring to ensure that your database is protected from unauthorised access and data loss.
+To interact with MySQL Server from the command line, use the MySQL Client Utility, which is installed as a dependency of the MySQL Server software package.
     
     mysql -u debian-sys-maint -p
     
@@ -394,7 +396,21 @@ We use the manage.py command tool by typing this command in the terminal:
 If you are doing this on another platform, then you may need to change it (change the port number 8000 as required):
 
     python3 manage.py runserver 0.0.0.0:8000
-    
+
+### Search function
+In the centre of the home page, there is a search function, which allows you to search by entering either or all of Productbrand and Productname, case sensitive.
+
+### Visualisation features
+
+#### Map function
+After finally starting the server, add 'statictics/', after the server website, to display a visualised world map. For example this is the website where my server can see the map: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/statistics/'
+
+#### Display icon function
+Finally after starting the server, add 'area/' after the server website to display a visualised pie chart showing the distribution of the prices of the products. For example this is the website where my server can see the pie chart: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/area/'
+
+### Administrator functions
+Add 'admin/' after the server URL. to show the backend administration. This is the website where my server can see the backend administrator: 'https://cleanfiesta-hunterdance-8000.codio-box.uk/admin/'
+
 ### Using tests
 Here are also some basic tests so that you can see how to test whether your code is working properly. They are located in the "Tests" folder and cover model and view tests. There is some repetitive code to load the test database, which can be refactored into a separate file for test file calls. Use the following command to run the tests:
 
