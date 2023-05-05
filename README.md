@@ -1,6 +1,9 @@
 # Shopping mall about product data with Python, MySQL and Django
 This is my shopping website.
 I used MySQL, which is not available in codio, so I had to install it in codio step by step, here is the installation tutorial (If you are using pycharm to open my application and you already have MySQL installed on your desktop, then you do not need to use the following installation steps to install MySQL in codio.): 
+
+## Modify the database section in setting.py and change the password section to the password of your mysql
+
 ### Prerequisites
 Ensure you are logged in as a user with sudo privileges.
 
