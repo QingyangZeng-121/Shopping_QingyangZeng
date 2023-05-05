@@ -4,7 +4,7 @@ I used MySQL, which is not available in codio, so I had to install it in codio s
 
 ### Modify the database section in settings.py.
 Install MySQL, and create a new scheme named 'product' in it, and correspond to the 'NAME': 'product', 'USER. root', 'PASSWORD', 'HOST: localhost', and 'PORT: 3306' as set in MySQL.
-Modify the database section in settings.py and change the password section to the password of your mysql
+Modify the 'DATABASES' section in settings.py and change the password section to the password of your MySQL.
 
 ### Prerequisites
 Ensure you are logged in as a user with sudo privileges.
